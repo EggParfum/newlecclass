@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    margin:0;
+}
+
+
+#root{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 250px 750px 1fr;
+    grid-template-rows: 70px 171px 1fr 100px;
+    grid-template-areas: 
+    "header header header header"
+    "visual visual visual visual"
+    ". aside main ."
+    "footer footer footer footer";
+}
+
+.box1{
+    background-color: red;
+    grid-area: header;
+}
+
+.box2{
+    background-color: green;
+    grid-area: visual;
+}
+
+.box3{
+    background-color: blue;
+    grid-area: aside;
+}
+
+.box4{
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+.box5{
+    background-color: rgb(52, 85, 22);
+    grid-area: footer;
+}

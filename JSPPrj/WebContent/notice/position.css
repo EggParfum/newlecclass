@@ -1,0 +1,36 @@
+body > div{
+    height: 50px;
+}
+
+body > div:nth-child(1){
+    background-color: red;
+}
+
+body > div:nth-child(2){
+   background-color: green;
+   position: relative;
+
+}
+
+.box{
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    background-color: darkorchid;
+
+    position: absolute;
+    left:150px;
+    top:25px;
+}
+
+body > div:nth-child(3){
+    background-color: blue;
+}
+
+body > div:nth-child(4){
+    background-color: cyan;
+}
+
+body > div:nth-child(5){
+    background-color: darkmagenta;
+}
